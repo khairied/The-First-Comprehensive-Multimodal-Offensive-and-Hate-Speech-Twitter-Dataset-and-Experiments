@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 This repository provides a curated dataset and experimental notebooks for **Multimodal Offensive and Hate Speech Detection**.  
-The dataset includes **tweet IDs** and **binary labels (Fake/Real)**, enabling researchers and students to explore **image–text Offensive and Hate Speech Detection** on social media platforms.
+The dataset includes **tweet IDs** and **binary labels (Offensive|Hate|Normal)**, enabling researchers and students to explore **image–text Offensive and Hate Speech Detection** on social media platforms.
 
 The accompanying notebook demonstrates how to load the dataset, conduct ablation experiments, and evaluate multimodal learning architectures in a reproducible manner.
 
