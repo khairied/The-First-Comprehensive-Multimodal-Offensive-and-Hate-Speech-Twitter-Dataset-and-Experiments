@@ -1,9 +1,9 @@
 # 🚨 MAFIA-Net  
-### Multimodal Arabic Fake-news Identification via Hybrid Attention Networks 🧠🖼️📝
+### The First Comprehensive Multimodal Offensive and Hate Speech Twitter Dataset and Experiments 🖼️📝
 
 ## 📌 Overview
-This repository provides a curated dataset and an experimental notebook for **Arabic multimodal fake news detection**.  
-The dataset includes **tweet IDs**, **binary labels (Fake/Real)**, and **source dataset names**, enabling researchers and students to explore **image–text misinformation** on Arabic social media platforms.
+This repository provides a curated dataset and experimental notebooks for **Multimodal Offensive and Hate Speech Detection**.  
+The dataset includes **tweet IDs** and **binary labels (Fake/Real)**, enabling researchers and students to explore **image–text Offensive and Hate Speech Detection** on social media platforms.
 
 The accompanying notebook demonstrates how to load the dataset, conduct ablation experiments, and evaluate multimodal learning architectures in a reproducible manner.
 
@@ -13,18 +13,11 @@ The accompanying notebook demonstrates how to load the dataset, conduct ablation
 The dataset is released as "MafiaNetDataset.csv" with the following structure:
 
 - `id` – Twitter Tweet ID  
-- `label` – Class label (`0` = Fake, `1` = Real)  
-- `dataset` – Source dataset name  
+- `label` – Class label (`2` = Offensive, `1` = Hate, `0` = Normal)   
 
 ✔️ Only Tweet IDs are shared to fully comply with Twitter/X data-sharing policies.
 
 ---
-
-## 🗂️ Data Collection
-- Arabic tweets were collected from **multiple misinformation-related sources**, including COVID-19 content, rumors, and fake news datasets.
-- Data acquisition was performed using the **Twitter API** (e.g., Tweepy) or web scraping tools.
-- Labels were inherited from **existing Arabic unimodal annotated datasets**, enabling scalable multimodal annotation with minimal manual effort.
-- Text and media content can be programmatically retrieved using the provided tweet IDs.
 
 ## 📝 Linguistic Statistics
 | Class     | Tweets   | Total Words | Unique Words | Avg. Words / Tweet |
@@ -78,7 +71,7 @@ Requests are intended for **research and academic use only**.
 If you use this dataset or code in your research, please cite:
 
 @article{mafianet2026,
-  title={MAFIA-Net: Multimodal Arabic Fake-news Identification via Hybrid Attention Networks},
+  title={The-First-Comprehensive-Multimodal-Offensive-and-Hate-Speech-Twitter-Dataset-and-Experiments},
   author={},
   journal={},
   year={2026}
