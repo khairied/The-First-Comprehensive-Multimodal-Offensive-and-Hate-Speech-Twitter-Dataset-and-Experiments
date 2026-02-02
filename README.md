@@ -1,4 +1,4 @@
-# 🚨 MAFIA-Net  
+# 🚨 FCMOH 
 ### The First Comprehensive Multimodal Offensive and Hate Speech Twitter Dataset and Experiments 🖼️📝
 
 ## 📌 Overview
@@ -18,28 +18,19 @@ The dataset is released as "MafiaNetDataset.csv" with the following structure:
 ✔️ Only Tweet IDs are shared to fully comply with Twitter/X data-sharing policies.
 
 ---
+## 📊 FCMOH Dataset Summary
+-The following table summarizes the construction of the FCMOH dataset in terms of annotation strategy, context, and class distribution.
 
-## 📝 Linguistic Statistics
-| Class     | Tweets   | Total Words | Unique Words | Avg. Words / Tweet |
-| --------- | -------- | ----------- | ------------ | ------------------ |
-| Real      | 3777     | 71,548      | 19,694       | 18.94              |
-| Fake      | 1361     | 30,474      | 10,158       | 22.39              |
-| **Total** | **5138** | **102,022** | **25,431**   | **19.86**          |
-
-## 📊 Dataset Statistics
-🔹 Distribution of Multimodal Tweets per Source Dataset
-
-| Dataset    | # Real           | # Fake           | Total (%)       |
-| ---------- | ---------------- | ---------------- | --------------- |
-| ArCOV-19   | 265              | 339              | 604 (11.8%)     |
-| Covid3s400 | 287              | 28               | 315 (6.1%)      |
-| FakeReal   | 686              | 200              | 886 (17.2%)     |
-| MFH        | 176              | 144              | 320 (6.2%)      |
-| NewID      | 216              | 167              | 383 (7.5%)      |
-| Covid5K700 | 505              | 190              | 695 (13.5%)     |
-| Rumor      | 1642             | 293              | 1935 (37.7%)    |
-| **Total**  | **3777 (73.5%)** | **1361 (26.5%)** | **5138 (100%)** |
-
+| Dataset          | Annotators | Context                                 | Normal     | Hate      | Offensive | Total      |
+| ---------------- | ---------- | --------------------------------------- | ---------- | --------- | --------- | ---------- |
+| Founta et al.    | 5–20       | HateBase and offensive words dictionary | 7,360      | 191       | 1,430     | 8,981      |
+| MeToo            | 3          | MeToo movement                          | 7,635      | 552       | –         | 8,187      |
+| Zerouk et al.    | 1          | List of users                           | 862        | 158       | –         | 1,020      |
+| Hateval          | 3+         | Immigrant and Women                     | 810        | 197       | –         | 1,007      |
+| Davidson et al.  | 3+         | HateBase keywords                       | 213        | 36        | 505       | 754        |
+| HASOC            | 2–3        | List of keywords                        | 461        | 148       | 105       | 714        |
+| HAR              | 2–3        | Harassment keywords                     | 51         | 20        | –         | 71         |
+| **FCMOH (Ours)** | **19–20**  | **All above contexts**                  | **17,392** | **1,302** | **2,040** | **20,734** |
 
 ---
 
