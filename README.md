@@ -36,13 +36,13 @@ The dataset is released as "MafiaNetDataset.csv" with the following structure:
 
 ## 🧪 Notebook (Ablation Study)
 The provided notebook includes the following experimental settings:
+-  **caption** caption detection and enrichment.ipynb
 - 📝 **Text Encoder Only** Text Encoder Only.ipynb
 - 🖼️ **Image Encoder Only** Image Encoder only.ipynb
-- ❌ **MAFIA-Net without MARBERTv2** Without Marbert.ipynb
-- ❌ **MAFIA-Net without EfficientNet-B1** Without efficientnetb1.ipynb
-- ❌ **MAFIA-Net without HCMA** Without HCMA.ipynb
-- ❌ **MAFIA-Net without VGTA** Without VGTA.ipynb
-- ✅ **Full MAFIA-Net Model** MafiaNet.ipynb
+- ❌ **Without STs & ViTs** Without Sts & ViTs.ipynb
+- ❌ **Without Caption** Without caption.ipynb
+- ❌ **Without MWPCA+TEDA** Without MWPCA TEDA.ipynb
+- ✅ **Proposed model** our proposition.ipynb
 
 These experiments highlight the contribution of each module to multimodal fake news detection.
 
